@@ -1,0 +1,70 @@
+/* 💜 Custom Light Mode Navbar */
+.navbar-custom.navbar-light {
+    background-color: #540e6b !important;
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link,
+  .navbar-custom .form-check-label {
+    color: #ffffff !important;
+  }
+  
+  /* 🌙 Dark Mode Navbar */
+  body.dark-mode .navbar-custom {
+    background-color: #1f1f1f !important;
+  }
+  
+  body.dark-mode .navbar-custom .navbar-brand,
+  body.dark-mode .navbar-custom .nav-link,
+  body.dark-mode .navbar-custom .form-check-label {
+    color: #f8f8f8 !important;
+  }
+  
+  /* 🌙 Form Controls in Dark Mode */
+  body.dark-mode .form-control {
+    background-color: #dfd6d6;
+    color: #ffffff;
+    border: 1px solid #555;
+  }
+  
+  /* 🌙 Primary Buttons in Dark Mode */
+  body.dark-mode .btn-outline-primary {
+    color: #f8f8f8;
+    border-color: #888;
+  }
+  
+  body.dark-mode .btn-outline-primary:hover {
+    background-color: #3a3a3a;
+    border-color: #aaa;
+  }
+  
+  /* 🌗 Dark Mode Toggle Label */
+  #dark-mode-switch + label {
+    margin-left: 6px;
+    font-weight: 500;
+  }
+  
+  /* 🍨 Search Button Light Mode */
+  .navbar-custom .btn-outline-white {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .navbar-custom .btn-outline-white:hover {
+    background-color: #ffffff;
+    color: #540e6b;
+    border-color: #540e6b;
+  }
+  
+  /* 🍨 Search Button Dark Mode */
+  body.dark-mode .btn-outline-white {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  body.dark-mode .btn-outline-white:hover {
+    background-color: #ffffff;
+    color: #1f1f1f;
+    border-color: #1f1f1f;
+  }
+  
