@@ -40,10 +40,9 @@ const IceCreamCustomizer = ({ show, onClose, onAdd, basePrice }) => {
     onClose();
   };
 
-  useEffect(() => {
-    // Whenever flavor, container, toppings, or quantity changes, recalculate the price
-    calculatePrice();
-  }, [flavor, container, toppings, quantity]);
+ useEffect(() => {
+  calculatePrice();
+}, [flavor, container, toppings, quantity, calculatePrice]);
 
   return (
     <Modal show={show} onHide={onClose} centered>
